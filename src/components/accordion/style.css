@@ -1,0 +1,40 @@
+h1 {
+    font-size: 4rem;
+
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.accordion {
+    background-color: rgb(148, 240, 226);
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 3rem;
+    transition: 0.4s;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion:hover {
+    background-color: rgb(5, 249, 168);
+}
+
+.panel {
+    background-color: rgb(170, 202, 127);
+    color: rgb(8, 8, 8);
+    padding: 18px;
+    width: 60%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5rem;
+}
